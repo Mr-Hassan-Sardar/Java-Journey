@@ -86,7 +86,7 @@ public class Account {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String nam;
-        Account a1 = new Account();
+        temp a1 = new temp();
         int d;
         int m;
         int y;
@@ -163,3 +163,4 @@ public class Account {
     }
 
 }
+
