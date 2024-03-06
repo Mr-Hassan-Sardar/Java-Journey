@@ -1,4 +1,4 @@
-package lab7;
+// This is simple Wothdrawl and deposit system for banking sysytem
 
 import java.util.Scanner;
 
@@ -39,12 +39,12 @@ class date {
 
 }
 
-public class SimpleDepositandWithdrawlSystem {
+public class Account {
     private String name;
     private float balance;
     private date d1 = new date();
 
-    public SimpleDepositandWithdrawlSystem() {
+    public Account() {
         this.name = "abc";
         this.balance = 0;
         d1.setday(0);
@@ -86,7 +86,7 @@ public class SimpleDepositandWithdrawlSystem {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String nam;
-       SimpleDepositandWithdrawlSystem a1 = new SimpleDepositandWithdrawlSystem();
+        Account a1 = new Account();
         int d;
         int m;
         int y;
