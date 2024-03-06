@@ -39,12 +39,12 @@ class date {
 
 }
 
-public class Account {
+public class SimpleDepositandWithdrawlSystem {
     private String name;
     private float balance;
     private date d1 = new date();
 
-    public Account() {
+    public SimpleDepositandWithdrawlSystem() {
         this.name = "abc";
         this.balance = 0;
         d1.setday(0);
@@ -86,7 +86,7 @@ public class Account {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String nam;
-        Account a1 = new Account();
+       SimpleDepositandWithdrawlSystem a1 = new SimpleDepositandWithdrawlSystem();
         int d;
         int m;
         int y;
