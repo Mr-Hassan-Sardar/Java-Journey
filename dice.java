@@ -1,5 +1,4 @@
-package lab7;
-
+//this is simpple rooling dice game
 import java.util.Random;
 import java.util.Scanner;
 
