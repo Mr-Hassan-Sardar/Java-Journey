@@ -1,4 +1,4 @@
-// This is simple Wothdrawl and deposit system for banking sysytem
+// This is simple Withdrawl and deposit system for banking sysytem
 
 import java.util.Scanner;
 
