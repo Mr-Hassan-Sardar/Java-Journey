@@ -1,5 +1,3 @@
-package OopinJava;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -41,7 +39,7 @@ public class oop1 {
         // System.out.println("Name: " + s6.name + " Marks: " + s6.marks);
 
         // // Deep Copy
-        // // Changing in 1 object will not change other objec
+        // // Changing in 1 object will not change other object
         // student s7 = new student(s5);
         // System.out.println("..........Before change Deep copy..........");
         // System.out.println("Name: " + s5.name + " Marks: " + s5.marks);
